@@ -1,4 +1,8 @@
 #include "Animal.h"
+Animal::Animal(){
+	set_legs(4);
+	set_alive(true);
+	set_species("Cat");
 
 Animal::Animal(int legs, bool alive, string spec){
 	number_of_legs=legs;
